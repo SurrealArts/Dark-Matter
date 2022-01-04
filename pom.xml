@@ -3,7 +3,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>me.surrealarts</groupId>
+    <groupId>dm.surrealarts</groupId>
     <artifactId>SlimefunAddon</artifactId>
     <version>1.0.0</version>
 
@@ -53,6 +53,13 @@
             <version>1.17.1-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
+
+				<dependency>
+						<groupId>org.bstats</groupId>
+						<artifactId>bstats-bukkit</artifactId>
+						<version>2.2.1</version>
+						<scope>compile</scope>
+				</dependency>
 
         <dependency>
             <groupId>com.github.Slimefun</groupId>
